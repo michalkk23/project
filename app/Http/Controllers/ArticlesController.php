@@ -30,6 +30,8 @@ class ArticlesController extends Controller
     }
 
     public function store(ArticlesRequest $request)
+
+        
     {
         $category = new Category();
         $category->name = $request->name;
